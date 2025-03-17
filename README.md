@@ -1,1 +1,1 @@
-https://tamilsooriya.github.io/emsfrontend/
+https://tamilsooriya.github.io/emsfront/
