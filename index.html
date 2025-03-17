@@ -1,4 +1,5 @@
 <html>
+<<<<<<< HEAD
   <head>
     <link rel="stylesheet" href="./css/style.css">
   </head>
@@ -28,3 +29,40 @@
 </form>
   </body>
 </html>
+=======
+
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<img src="https://media1.tenor.com/m/MiiSaoOtKHgAAAAC/black-background.gif" class="gif-background">
+  <form onsubmit="return printDetails(event)">
+    <label>Employee Id</label>
+    <input type=number name="Employee_Id" id="Id"><br>
+    <label>Name</label>
+    <input type=text name="Name" id="Name" pattern="[A-Za-z]+"><br>
+    <label>Email</label>
+    <input type=email name="Email" id="Email"><br>
+    <label>Position</label>
+    <select name="Position" required id="Position">
+      <option value="" select hidden>select position</option>
+      <option value="Developer">Developer</option>
+      <option value="Tester">Tester</option>
+      <option value="Support and Maintenance">Support and Maintenance</option>
+    </select><br>
+    <label>Salary</label>
+    <input type=number name="Salary" id="Salary" min="1"><br>
+    <label>Gender</label>
+    <input type=radio name="Gender" value="male">male
+    <input type=radio name="Gender" value="female">female<br>
+    <label>Date</label>
+    <input type=date name="Date" id="Date"><br>
+    <input type=submit value="SUBMIT">
+  </form>
+  <p id="demo" style="color: white;">the values will be shown here after submission
+  <p>
+    <script src="./javascript/main.js"></script>
+</body>
+
+</html>
+>>>>>>> 115dc60 (included js and improved css)
